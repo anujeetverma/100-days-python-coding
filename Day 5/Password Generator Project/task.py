@@ -11,11 +11,11 @@ password= ""
 # password = password + letters[random.randint(0,len(letters)-1)]
 # print(password)
 # password = password + letters[random.randint(0,len(letters)-1)]
-for char in range(1,nr_letters+1):
+for char in range(0,nr_letters):
     password = password + letters[random.randint(0,len(letters)-1)]
-for symbol in range(1,nr_symbols+1):
+for symbol in range(0,nr_symbols):
     password = password + symbols[random.randint(0, len(symbols) - 1)]
-for number in range(1,nr_numbers+1):
+for number in range(0,nr_numbers):
     password = password + numbers[random.randint(0, len(numbers) - 1)]
 print(password)
 passwordList = list(password)
