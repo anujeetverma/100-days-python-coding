@@ -19,7 +19,7 @@ print("Word to guess: " + placeholder)
 game_over = False
 correct_letters = []
 wrong_letters =[]
-while not game_over:
+while not game_over :
 
     # TODO-6: - Update the code below to tell the user how many lives they have left.
     print(f"****************************{lives}/6 LIVES LEFT****************************")
