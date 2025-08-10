@@ -45,10 +45,12 @@ def calculate_love_score(first_name, second_name):
 
     first_digit_str = str(first_digit)
     second_digit_str = str(second_digit)
-    print(f"love score of [ {first_name} ] and  [ {second_name} ] = {first_digit}{second_digit}")
+    final_digit = first_digit+second_digit
+    print(final_digit)
+    print(f"love score of [ {first_name} ] and  [ {second_name} ] = ")
 
 
-calculate_love_score("Ananyo Hoque", "Supriti Roy")
+calculate_love_score("Naresh Kumar Verma", "Vinita Verma")
 
 
 # print("love score of [ Anujeet Verma ] and [ Neha Ghosh ] = 100")
