@@ -8,4 +8,11 @@
 # print(my_screen.canvheight)
 # my_screen.exitonclick()
 #
-import prettytable
+from prettytable import PrettyTable
+tabel = PrettyTable()
+tabel.add_column('Pokemon name', ["Pikachu","Squirtle","Charmander"],)
+tabel.add_column("Type", ["Electric","water","Fire"])
+print(tabel.align)
+tabel.align = "l"
+print(tabel.align)
+print(tabel)
