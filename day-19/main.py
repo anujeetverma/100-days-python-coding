@@ -65,4 +65,5 @@ while is_race_on:
             is_race_on = False
 
 
+
 screen.exitonclick()
