@@ -67,3 +67,4 @@ while is_race_on:
 
 
 screen.exitonclick()
+
