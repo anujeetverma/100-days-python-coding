@@ -23,6 +23,7 @@ for i in range(36):
     tim.pencolor(tup)
 
 
+
 # for j in range (0,100):
 #     for i in range (j):
 #         tim.forward(15)
