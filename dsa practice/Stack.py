@@ -9,7 +9,7 @@ class Stack:
         self.items.append(item)
 
     def pop(self):
-        self.items.pop()
+         return self.items.pop()
 
     def peek(self):
         return self.items[len(self.items)-1]
@@ -19,8 +19,9 @@ class Stack:
 
 s = Stack()
 
-s.push(3)
-s.push("hello")
-print(s.peek())
-s.pop()
-print(s.peek())
+# string = "Hello"
+# for c in string:
+#     s.push(c)
+#
+# while not s.is_empty():
+#     print(s.pop())
