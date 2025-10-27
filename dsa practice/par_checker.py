@@ -18,7 +18,10 @@ def par_checker (string):
         balanced= False
     return balanced
 
+
 print(par_checker("("))
+print(par_checker("())"))
+print(par_checker("(())"))
 print(par_checker("((())"))
 print(par_checker("((()))"))
 print(par_checker("((())))))"))
