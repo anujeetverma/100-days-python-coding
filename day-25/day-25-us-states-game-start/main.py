@@ -18,6 +18,7 @@ while len(ans_list)<2:
         ans_list.append(answer_text)
         print(f"x cord  {data[data.state == answer_text]['x'].item()}")
         print(f"y cord {data[data.state == answer_text]['y'].item()}")
+
         print(ans_list)
 
 print(data[data.state== 'Ohio']['y'])
