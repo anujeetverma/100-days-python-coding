@@ -3,6 +3,8 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        for _ in range (0,k):
+        n = len(nums)
+        rot = k%n
+        for _ in range (0,rot):
             e = nums.pop()
             nums.insert(0,e)
