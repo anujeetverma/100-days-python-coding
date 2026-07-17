@@ -7,10 +7,10 @@ class Solution:
             mid = (low+high)//2
             if nums[mid]== target:
                 return mid
-            if nums[high]== target:
-                return high
-            if nums[low]==target:
-                return low
+            # if nums[high]== target:
+            #     return high
+            # if nums[low]==target:
+            #     return low
             elif nums[mid]<target:
                 low = mid+1
             else:
